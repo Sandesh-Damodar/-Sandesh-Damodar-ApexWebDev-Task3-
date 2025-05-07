@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Programming Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>Programming Quiz</h1>
+    <div id="timer">Time Left: <span id="time">60</span> seconds</div>
+    <form id="quizForm"></form>
+    <button id="startBtn" onclick="startQuiz()">Start Quiz</button>
+    <button id="submitBtn" onclick="submitQuiz()" style="display: none;">Submit</button>
+    <div id="result"></div>
+    <div id="last-score"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
